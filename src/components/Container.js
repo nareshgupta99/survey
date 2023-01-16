@@ -13,8 +13,8 @@ export default class Container extends Component {
         return (
             <>
                 
-                    <div className='container  mt-3 '>
-                        <div className='text-center  text-primary' >
+                    <div className='container  mt-2  '>
+                        <div className='text-center  card text-primary' >
                             <h1 className='bg-white pb-2'>Survey </h1>
 
                         </div>
