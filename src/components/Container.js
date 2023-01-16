@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Details from './Details'
+import Question from './Question'
 
 export default class Container extends Component {
     constructor(props) {
@@ -19,6 +20,7 @@ export default class Container extends Component {
 
                         </div>
                         <Details />
+                        <Question />
                     </div>
                 
             </>

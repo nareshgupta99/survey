@@ -3,5 +3,8 @@ body{
 }
 .d-container{
     width:60%;
-    
+    margin:auto;
+}
+.d-inline-block{
+    display:inline-block
 }
