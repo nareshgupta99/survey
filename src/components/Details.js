@@ -1,6 +1,7 @@
 import React from 'react'
+import Question from './Question'
 
-export default function () {
+ function Details() {
   return (
     <div className="mt-2">
       <div className='card d-container  ' >
@@ -31,10 +32,11 @@ export default function () {
           <span className='badge rounded-pill text-bg-primary'>1</span>
           <span className='badge rounded-pill text-bg-primary mx-2 '>2</span>
         </center>
-
-
       </div>
+
+
 
     </div>
   )
 }
+export default Question;

@@ -1,6 +1,9 @@
 import React from 'react'
 
-export default function Question() {
+ function Question() {
+    const grey = {
+        backgroundColor: "darkgrey"
+    }
     return (
         <div className='d-container card mt-2' >
             <div className='card-body'>
@@ -15,7 +18,7 @@ export default function Question() {
                             </div>
                             <div class="form-check form-check-inline">
                                 <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Programer" />
-                                <label className="form-check-label" for="inlineRadio2">Programer</label>
+                                <label className="form-check-label" for="inlineRadio2" >Programer</label>
                             </div>
                             <div class="form-check form-check-inline">
                                 <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="Student" />
@@ -26,13 +29,53 @@ export default function Question() {
                                 <label className="form-check-label" for="inlineRadio3">Other</label>
                             </div>
                         </div>
+                        <div >
+                            <input type="text" name="other" className="form-control mt-2" style={grey} placeholder='Type here if not listed'></input>
+                        </div >
 
+                        <div className="mt-3">
+                            <b>4.</b>Rate of Our Course.
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="poor" />
+                            <label className="form-check-label" for="inlineRadio3">Poor</label>
+                        </div>
 
+                        <div class="form-check form-check-inline">
+                            <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="good" />
+                            <label className="form-check-label" for="inlineRadio3">Good</label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="excelent" />
+                            <label className="form-check-label" for="inlineRadio3">Excellent</label>
+                        </div>
+                        <div className='mt-3'>
+                            <b>5.</b> Write your review here.
+                        </div>
+                        <div class="form-floating mt-3">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+
+                        </div>
                     </div>
+                        <center className='mt-3'>
+                            <span className='badge rounded-pill text-bg-primary'>1</span>
+                            <span className='badge rounded-pill text-bg-primary mx-2 '>2</span>
+                        </center>
+
+
+
+
+
                 </form>
 
-            </div>
+            </div >
 
-        </div>
+
+        </div >
+
     )
+
+
 }
+export default Question;
