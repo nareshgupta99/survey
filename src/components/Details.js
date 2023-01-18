@@ -1,13 +1,13 @@
 import React from 'react'
 import Question from './Question'
 
- function Details() {
+ function Details(props) {
   return (
     <div className="mt-2">
       <div className='card d-container  ' >
         <div className='card-body'>
 
-          <form className=' mx-3 '>
+          <form className=' mx-3 ' onSubmit={props.submit}>
 
             <div className='form-group'>
 
@@ -30,7 +30,7 @@ import Question from './Question'
 
         <center>
           <span className='badge rounded-pill text-bg-primary'>1</span>
-          <span className='badge rounded-pill text-bg-primary mx-2 '>2</span>
+          <span className=' mx-2 '>2</span>
         </center>
       </div>
 
@@ -39,4 +39,4 @@ import Question from './Question'
     </div>
   )
 }
-export default Question;
+export default Details;
