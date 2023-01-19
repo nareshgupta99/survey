@@ -14,19 +14,19 @@ import React from 'react'
 
                             <div class="form-check form-check-inline">
                                 <input className="form-check-input" type="radio" name="profession" id="inlineRadio1" value="Teaching" />
-                                <label className="form-check-label" for="inlineRadio1">Teaching</label>
+                                <label className="form-check-label" htmlFor="inlineRadio1">Teaching</label>
                             </div>
                             <div class="form-check form-check-inline">
                                 <input className="form-check-input" type="radio" name="profession" id="inlineRadio2" value="Programer" />
-                                <label className="form-check-label" for="inlineRadio2" >Programer</label>
+                                <label className="form-check-label" htmlFor="inlineRadio2" >Programer</label>
                             </div>
                             <div class="form-check form-check-inline">
                                 <input className="form-check-input" type="radio" name="profession" id="inlineRadio3" value="Student" />
-                                <label className="form-check-label" for="inlineRadio3">Student</label>
+                                <label className="form-check-label" htmlFor="inlineRadio3">Student</label>
                             </div>
                             <div class="form-check form-check-inline">
                                 <input className="form-check-input" type="radio" name="profession" id="inlineRadio3" value="Other" />
-                                <label className="form-check-label" for="inlineRadio3">Other</label>
+                                <label className="form-check-label" htmlFor="inlineRadio3">Other</label>
                             </div>
                         </div>
                         <div >
@@ -38,22 +38,22 @@ import React from 'react'
                         </div>
                         <div class="form-check form-check-inline">
                             <input className="form-check-input" type="radio" name="rate" id="inlineRadio3" value="poor" />
-                            <label className="form-check-label" for="inlineRadio3">Poor</label>
+                            <label className="form-check-label" htmlFor="inlineRadio3">Poor</label>
                         </div>
 
                         <div class="form-check form-check-inline">
                             <input className="form-check-input" type="radio" name="rate" id="inlineRadio3" value="good" />
-                            <label className="form-check-label" for="inlineRadio3">Good</label>
+                            <label className="form-check-label" htmlFor="inlineRadio3">Good</label>
                         </div>
 
                         <div class="form-check form-check-inline">
                             <input className="form-check-input" type="radio" name="rate" id="inlineRadio3" value="excelent" />
-                            <label className="form-check-label" for="inlineRadio3">Excellent</label>
+                            <label className="form-check-label" htmlFor="inlineRadio3">Excellent</label>
                         </div>
                         <div className='mt-3'>
                             <b>5.</b> Write your review here.
                         </div>
-                        <div class="form-floating mt-3">
+                        <div className="form-floating mt-3">
                             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" name="review"></textarea>
 
                         </div>
