@@ -5,7 +5,7 @@ import Question from './Question'
   return (
     <div className="mt-2">
       <div className='card d-container  ' >
-        <div className='card-body'>
+        <div className='card-body '>
 
           <form className=' mx-3 ' onSubmit={props.submit}>
 

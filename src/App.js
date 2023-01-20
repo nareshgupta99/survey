@@ -1,11 +1,13 @@
 
 import './App.css';
 import Container from './components/Container';
+import Register from './components/Register';
 
 function App() {
   return (
     <>
-      <Container />
+      {/* <Container /> */}
+      <Register />
     </>
   )
    }

@@ -62,13 +62,14 @@ export default class Container extends Component {
         questions.q4=event.target.rate.value
         questions.q5=event.target.review.value
         questions.other=event.target.other.value
-        this.setState({question:questions})
+        this.setState({questions})
        set(ref(database,"survey/"+this.state.id),{
             name:this.state.name,
             email:this.state.email,
             questions:this.state.question
         })
         console.log(this.state)
+        // console.log(questions);
     };
     otherHandler=()=>{
         alert()
