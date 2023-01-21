@@ -36,11 +36,11 @@ export default function Register(props) {
                         </div>
 
                         <div className='form-group mt-2'>
-                            <input type="Email" className="form-control" name="password" placeholder='Create Password' />
+                            <input type="password" className="form-control" name="password" placeholder='Create Password' />
                         </div>
 
                         <div className='form-group mt-2'>
-                            <input type="Email" className="form-control" name="repeatPassword" placeholder='Repeat Password' />
+                            <input type="password" className="form-control" name="repeatPassword" placeholder='Repeat Password' />
                         </div>
                         <div className="d-grid gap-2">
 
@@ -48,7 +48,7 @@ export default function Register(props) {
                         </div>
 
                     </form>
-                    <h6 className='text-black'>Have an account?<a href="#">login</a></h6>
+                    <h6 className='text-black'>Have an account?<a href="/">login</a></h6>
                 </div>
 
             </div>

@@ -8,7 +8,7 @@ import 'firebase/compat/firestore';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getDatabase ,ref, set  } from "firebase/database";
-import Login from '../Login';
+
 
 const firebaseConfig = {
     apiKey: "AIzaSyDZXS-KcOZ_DJ_d7EBMpsOgjF2SxRovb3U",
