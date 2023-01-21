@@ -9,17 +9,24 @@ export default function Register(props) {
                 <div className=" form-container text-white">
                     <div className='text-black'>
 
-                    <h3 >Create Account</h3>
-                    </div>
-                    <h6 className='mt-3 text-black'>Get started with free Account</h6>
-                    <div className='bg-primary heading'>
-                        signup via google
+                        <h3 >Create Account</h3>
+
+
+                        <h6 className='mt-3 text-black'>Get started with free Account</h6>
+
 
                     </div>
-                    <div style={{background:"#4267B2"}} className='mt-2 '>
-                        <h6>signup via facebook</h6>
+                    <div className="d-grid gap-2">
+
+                        <button type="submit" className='btn btn-primary mt-3 px-4 '>signup via google</button>
                     </div>
-                    or
+
+                    <div className="d-grid gap-2">
+
+                        <button type="submit" className='btn  mt-3 px-4 text-white' style={{ background: "#4267B2" }}>signup via facebook</button>
+                    </div>
+
+                    <p className="text-black    ">or</p>
 
 
                     <form className=' mx-3 ' onSubmit={props.submit}>
@@ -35,14 +42,18 @@ export default function Register(props) {
                         <div className='form-group mt-2'>
                             <input type="Email" className="form-control" name="repeatPassword" placeholder='Repeat Password' />
                         </div>
-                        <button type="submit" className='btn btn-primary mt-3 px-4 '>Register</button>
+                        <div className="d-grid gap-2">
+
+                            <button type="submit" className='btn btn-primary mt-3 px-4 '>Register</button>
+                        </div>
 
                     </form>
-                    <h6 className='text-black'>Have an account <a href="#">login</a></h6>
+                    <h6 className='text-black'>Have an account?<a href="#">login</a></h6>
                 </div>
 
             </div>
         </div>
+
 
 
 
